@@ -3,9 +3,13 @@
 
 Simple overview of use/purpose.
 
+Basketball game, Homies are Hoopin
+
 ## Description
 
 An in-depth paragraph about your project and overview of use.
+
+A game where you play against a friend or ai. Shoot the basketball in the hoop from the three point line. The first person to a certain amount of point when the game. As you get better in the game, you will be able to change the look of your ball as you level up. 
 
 ## Getting Started
 
@@ -18,6 +22,7 @@ An in-depth paragraph about your project and overview of use.
 
 * How/where to download your program
 * Any modifications needed to be made to files/folders
+
 
 ### Executing program
 
@@ -41,6 +46,9 @@ Contributors names and contact info
 ex. Dominique Pizzie  
 ex. [@DomPizzie](https://twitter.com/dompizzie)
 
+Charlie Longwello
+charlie.longwello24@bcp.org
+
 ## Version History
 
 * 0.2
@@ -51,7 +59,7 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [MIT] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
@@ -61,3 +69,4 @@ Inspiration, code snippets, etc.
 * [dbader](https://github.com/dbader/readme-template)
 * [zenorocha](https://gist.github.com/zenorocha/4526327)
 * [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* [W3schools](https://www.w3schools.com/python/)
