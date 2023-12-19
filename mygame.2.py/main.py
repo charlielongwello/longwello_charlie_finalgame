@@ -1,9 +1,9 @@
 # This file was created by: charlie longwello
 # The Final Game
-# my goal for my final project is to make a basketball game
-# shoot the basketball into the hoop
-# beat previous score each time
-# unlock new basketball skins as you get better 
+# my goal for my final project is to make a survival game
+# stay alive as long as you can
+# beat previous record each time
+# replicate flappy bird 
 
 
 import pygame
@@ -18,7 +18,9 @@ HEIGHT = 400
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 RED = (255, 0, 0)
-GREEN = (0, 255, 0)
+GREEN = (26, 152, 22)
+BLUE = (108, 231, 255)
+
 
 # The Bird
 bird_x = 50
@@ -83,10 +85,10 @@ while True:
         pipes.append({"x": WIDTH, "height": random.randint(100, HEIGHT - pipe_gap - 100)})
 
     # screen when won
-    win.fill(WHITE)
+    win.fill(BLUE)
 
     # The Bird
-    pygame.draw.circle(win, RED, (bird_x, int(bird_y)), bird_radius)
+    pygame.draw.circle(win, BLACK, (bird_x, int(bird_y)), bird_radius)
 
     # The Pipes
     for pipe in pipes:
@@ -114,9 +116,7 @@ while True:
     # Frame rate
     clock.tick(30)
 
-    # Bird image
-    bird_image = pygame.image.load("pixelball.png")  
-    bird_image = pygame.transform.scale(bird_image, (30, 30))
+
     
 
 
